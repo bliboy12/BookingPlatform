@@ -1,0 +1,16 @@
+# MacOS
+**/.DS_Store
+#IDEs
+**/.idea
+**/.vs
+**/.vscode
+# .Net
+**/bin
+**/obj
+#React
+**/build
+**/dist
+**/out
+
+**/.env
+

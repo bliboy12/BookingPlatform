@@ -4,6 +4,7 @@ public class ConsultantProfile
     public Guid UserId { get; set; }
     public ApplicationUser User { get; set; } = null!;
     public Address Address { get; set; } = null!;
+    public string BankAccountNumber { get; set; } = string.Empty;
 
     public ICollection<ConsultantSector> ConsultantSectors { get; set; } = new List<ConsultantSector>();
     public ICollection<Availability> Availabilities { get; set; } = new List<Availability>();
