@@ -13,4 +13,4 @@
 **/out
 
 **/.env
-
+**/appsettings.*.json
